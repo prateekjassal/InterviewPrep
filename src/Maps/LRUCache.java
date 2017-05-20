@@ -7,6 +7,11 @@ import java.util.Map;
  * Created by prateek on 20/05/17.
  */
 
+/**
+ * Source - https://www.interviewbit.com/problems/least-recently-used-cache/
+ *
+ */
+
 public class LRUCache {
     int capacity;
     Map<Integer, ListNode> map;
